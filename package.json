@@ -1,0 +1,42 @@
+{
+  "name": "@master-chief/hash-code",
+  "version": "1.0.0",
+  "description": "generate a hash code value for an object",
+  "author": "master-chief",
+  "license": "ISC",
+  "keywords": [
+    "java",
+    "hashcode",
+    "hash",
+    "code"
+  ],
+  "type": "module",
+  "main": "./dist/cjs/index.cjs",
+  "types": "./types/index.d.ts",
+  "exports": {
+    "import": "./dist/mjs/index.mjs",
+    "require": "./dist/cjs/index.cjs"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run build:mjs && npm run build:cjs && ./remap.sh",
+    "build:mjs": "tsc --rootDir src --outDir dist/mjs --moduleResolution node --allowSyntheticDefaultImports -d --declarationDir types --module esnext src/*.ts",
+    "build:cjs": "tsc --rootDir src --outDir dist/cjs --moduleResolution node --esModuleInterop src/*.ts",
+    "clean": "rimraf dist types",
+    "test": "npm run test:unit",
+    "test:unit": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/*.test.ts"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.4.0",
+    "typescript": "^4.0.3"
+  }
+}
