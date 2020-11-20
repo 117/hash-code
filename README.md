@@ -17,7 +17,7 @@ generate a hash code value for an object
 ## Features
 
 - [x] Extremely fast.
-- [x] Same functionality as Java's `hashCode()`
+- [x] Same functionality as Java's `hashCode()`.
 
 ## Install
 
