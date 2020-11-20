@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/github/package-json/v/117/hash-code?color=196DFF&style=flat-square)
 ![language](https://img.shields.io/github/languages/code-size/117/hash-code?color=F1A42E&style=flat-square)
-![maintenance](https://img.shields.io/github/workflow/status/117/hash-code/test?style=flat-square)
+![build](https://img.shields.io/github/workflow/status/117/hash-code/test?style=flat-square)
 ![prettier](https://img.shields.io/static/v1?label=code%20style&message=prettier&color=ff51bc&style=flat-square)
 
 generate a hash code value for an object
