@@ -1,6 +1,6 @@
 {
   "name": "@master-chief/hash-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generate a hash code value for an object",
   "author": "master-chief",
   "license": "ISC",
