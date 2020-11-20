@@ -24,7 +24,7 @@ generate a hash code value for an object
 From NPM:
 
 ```cmd
-> npm i @master-chief/alpaca
+> npm i @master-chief/hash-code
 ```
 
 ## Usage
