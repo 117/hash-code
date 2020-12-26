@@ -38,4 +38,4 @@ console.log(hashcode({ cat: 'meow' })))
 
 ## Contributing
 
-Pull requests are encouraged. 🥳
+Feel free to contribute and PR to your 💖's content.
