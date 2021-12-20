@@ -5,7 +5,7 @@
 ![build](https://img.shields.io/github/workflow/status/117/hash-code/test?style=flat-square)
 ![prettier](https://img.shields.io/static/v1?label=code%20style&message=prettier&color=ff51bc&style=flat-square)
 
-generate a hash code value for an object
+generate a hash code value for an object.
 
 ## Contents
 
